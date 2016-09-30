@@ -67,5 +67,10 @@ theme: bootstrap-blog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: 
+  type: rsync
+  host: new.jasonlebrun.info
+  user: blog
+  root: /var/www/html
+  delete: false
+  verbose: true
