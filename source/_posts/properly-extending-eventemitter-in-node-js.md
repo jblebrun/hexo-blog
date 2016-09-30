@@ -25,7 +25,7 @@ If this initialization code is run, then any objects created further down the in
 
 To exhibit the difference, let's look at a small code example. We'll create two custom **EventEmitter** objects, one that sets up its prototype chain using `new EventEmitter` and one that sets up its prototype chain using `Object.create(EventEmitter.prototype)` via the `util.inherits` helper function.
 
-`<pre>
+{% codeblock lang:javascript %}
 var EventEmitter = require('events').EventEmitter;
 var util = require('util');
 
@@ -50,15 +50,15 @@ bad1.on('ev', function(msg) { console.log("Bad Instance 1: "+msg); });
 var bad2 = new BadEmitter();
 bad2.on('ev', function(msg) { console.log("Bad Instance 2: "+msg); });
 bad1.emit('ev', 'BadEmitter: Emitting from Instance 1');
-</pre>`
+{% endcodeblock %}
 
 If you run this code using node.js, you will see:
-`
-$ node ee.js
+<code>
+$ **node ee.js**
 Good Instance 1: GoodEmitter: Emitting from Instance 1
 Bad Instance 1: BadEmitter: Emitting from Instance 1
 Bad Instance 2: BadEmitter: Emitting from Instance 1
-`
+</code>
 
 So we see quite clearly: we have both instances of the bad emitter object responding to an event published by just one of the bad emitter instances. The same pattern with the good emitter behaves as expected, only firing listeners registered on the object that emitted the event.
 
