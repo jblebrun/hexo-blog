@@ -665,3 +665,7 @@ pre {
     width: $mobile-content-width;
   }
 }
+
+.squircled {
+    clip-path: url(#squircle);
+}

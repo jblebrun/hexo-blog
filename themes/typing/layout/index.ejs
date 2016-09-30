@@ -1,7 +1,17 @@
 <div class="home">
+<svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+    <clipPath id="squircle" clipPathUnits="objectBoundingBox">
+        <path d="M0.5 0 C 0.9 0, 1 0.1, 1 0.5
+                C 1 0.9, 0.9 1, 0.5 1 
+                C 0.1 1, 0 0.9, 0 0.5
+                C 0 0.1, 0.1 0, 0.5 0"/>
+    </clipPath>
+</defs>
+</svg>
   <div class="content">
     <div class="profile">
-    <img src="<%= gravatar(theme.email) %>"/>
+      <img class="squircled" src="<%= gravatar(theme.email) %>"/>
       <h1 class="nickname"><%= theme.fullname %></h1>
       <h2 class="nickname">(<%= theme.nickname %>)</h2>
       <br/>
