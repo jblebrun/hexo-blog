@@ -1,0 +1,21 @@
+<div class="home">
+  <div class="content">
+    <div class="profile">
+    <img src="<%= gravatar(theme.email) %>"/>
+      <h1 class="nickname"><%= theme.fullname %></h1>
+      <h2 class="nickname">(<%= theme.nickname %>)</h2>
+      <br/>
+      <div class="description">
+        <p><%- markdown(theme.description) %></p>
+      </div>
+    </div>
+    <hr/>
+    <ul class="links">
+      <% for (var key in theme.links) { %>
+        <li>
+          <a href="<%= theme.links[key] %>"><%= key %></a>
+        </li>
+      <% } %>
+    </ul>
+  </div>
+</div>

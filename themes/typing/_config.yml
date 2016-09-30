@@ -1,0 +1,42 @@
+# Lang
+language: en
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+rss: /atom.xml
+
+# Content
+fancybox: true
+
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.ico
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+
+# Profile
+email: jblebrun@gmail.com
+fullname: Jason B LeBrun
+nickname: Jibbl 
+description: Software Developer in Seattle. Hobbyist Musician. Android, iOS, Server, Embedded. Love to learn new things. Je parle français. 
+links:
+  Resume: /files/resume.html
+  Resume PDF: /files/resume.pdf
+  Blog: /archives
+  GitHub: https://github.com/jblebrun
+  StackOverflow: http://stackoverflow.com/users/569106/jason-lebrun
+  Twitter : http://twitter.com/jblebrun
+  Quotes: /quotes
+  Music: /music
+
+
+# Info
+archive_footer_content: :-)
+post_footer_content: :-)
