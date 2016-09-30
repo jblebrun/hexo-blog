@@ -23,7 +23,7 @@ archive_type: 'monthly'
 show_count: true
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-13084060-1
 favicon:
 twitter_id:
 google_plus:

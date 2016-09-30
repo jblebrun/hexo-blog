@@ -4,7 +4,7 @@ id: 2
 date: 2010-02-18 01:41:30
 ---
 
-[Resume](files/resume.html) [(PDF)](files/resume.pdf)
+[Resume](/files/resume.html) [(PDF)](/files/resume.pdf)
 
 Software Developer in Seattle.
 
