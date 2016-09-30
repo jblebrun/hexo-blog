@@ -11,32 +11,31 @@ Later on, I found a program called Bhajis Loops, which runs on Palm OS. Since I 
 
 **Early Work (Jason and Lindsay)
 **
-[What The Hell?](http://jasonlebrun.info/wp-content/uploads/2010/02/wth.mp3)
+[What The Hell?](/files/wth.mp3)
 
-[](http://jasonlebrun.info/wp-content/uploads/2010/02/wth.mp3)[When's My Turn?](http://jasonlebrun.info/wp-content/uploads/2010/02/wmt.mp3)
+[When's My Turn?](/files/wmt.mp3)
 
-[](http://jasonlebrun.info/wp-content/uploads/2010/02/wmt.mp3)[Intentional Void - Flock of Seagulls Remix (with Lindsay)](http://jasonlebrun.info/wp-content/uploads/2010/02/ivfog.mp3)
+[Intentional Void - Flock of Seagulls Remix (with Lindsay)](/files/ivfog.mp3)
 
 **Jason**
 
-[The Cold](http://jasonlebrun.info/wp-content/uploads/2010/02/tcf.mp3)
+[The Cold](/files/tcf.mp3)
 
-[The Thaw](http://jasonlebrun.info/wp-content/uploads/2010/02/thaw.mp3)
+[The Thaw](/files/thaw.mp3)
 
-[WeatherVain](http://jasonlebrun.info/wp-content/uploads/2010/02/weathervain.mp3)
+[WeatherVain](/files/weathervain.mp3)
 
-[](http://jasonlebrun.info/wp-content/uploads/2010/02/weathervain.mp3)Intentional Void Original Mix[missing][](http://jasonlebrun.info/wp-content/uploads/2010/02/thaw.mp3)
+Intentional Void Original Mix[missing]
 
-[NailBiting](http://jasonlebrun.info/wp-content/uploads/2010/02/nbhi.mp3)
+[NailBiting](/files/nbhi.mp3)
 
-[](http://jasonlebrun.info/wp-content/uploads/2010/02/nbhi.mp3)[NailBiting Lo](http://jasonlebrun.info/wp-content/uploads/2010/02/nblo.mp3)
+[NailBiting Lo](/files/nblo.mp3)
 
 **Bhajis Thoughts (Jason)**
 
-[Concept5251](http://jasonlebrun.info/wp-content/uploads/2010/02/5251.mp3)
-[Theeskip](http://jasonlebrun.info/wp-content/uploads/2010/02/theeskip.mp3)
+[Concept5251](/files/5251.mp3)
+[Theeskip](/files/theeskip.mp3)
 
-[](http://jasonlebrun.info/wp-content/uploads/2010/02/theeskip.mp3)
 ** Linday's Music**
 
 Sanctuary

@@ -1,8 +1,11 @@
 # Header
-navbar_brand: false
+navbar_brand: <img src="https://www.gravatar.com/avatar/4ae21f396aad3f1bc9fbc5129381890b"/>
 menu:
-  Home: index.html
-  Archives: archives/
+  About: about
+  Blog: index.html
+  Music: music
+  Quotes: quotes
+
 rss: /atom.xml
 
 # Content
@@ -11,16 +14,9 @@ fancybox: false
 
 # Sidebar
 widgets:
-- about         # See also: `about_content`
-- category
-- tag
-- tagcloud
 - archive
-- recent_posts
+
 about_widget_content: >
-  <p>Etiam porta <em>sem malesuada magna</em> mollis euismod.
-  Cras mattis consectetur purus sit amet fermentum. Aenean
-  lacinia bibendum nulla sed consectetur.</p>
 
 # widget behavior
 archive_type: 'monthly'
