@@ -7,6 +7,10 @@ date: 2013-10-08 13:21:48
 tags:
 ---
 
+***Update 2017-04-11***
+*Someone reading this post pointed out that for modern version of node, this example no longer works. The reason for this is that the `EventEmitter` initialization path now checks to make sure that the events object is an "own property", and avoids re-using the structure from the prototype chain. This change happening quite a while ago, the relevant commit is here: * 
+*https://github.com/nodejs/node/commit/2c6b424829caf0a4c07839c4daac3a438c0f0c9a*
+
 A particularly powerful pattern in node.js is that of EventEmitters. One of the core architectural pieces of Donna's machinery, Qred, makes use of the EventEmitter pattern to allow other parts of the system to learn when a job, or a particular job, has been completed. 
 
 JavaScript is certainly not known for its intuitive syntax and idioms when it comes to extending objects and setting up prototype chains. While there are some fairly well-defined best practices, it's easy to become careless and do the wrong thing. I found myself recently bitten when playing with making objects that emit events in node.js because I didn't pay close attention to how I was setting up my prototype chains.
